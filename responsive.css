@@ -1,0 +1,80 @@
+.body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: fit-content;
+    
+}
+
+.menu{
+   top: 0px;
+    position: fixed;
+    background-color: rgb(33, 32, 32);
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+  
+ 
+
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 90px;
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    right: 30px;  
+    margin: 0 15px;
+}
+
+.menu li a{
+    text-decoration:solid ;
+    color: white;
+    font-size: medium;
+    font-style: italic;
+    display: block;
+  
+}
+
+.menu li a:hover{
+    background-color: lawngreen;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.menu li a:active{
+    background-color: rgb(172, 218, 126);
+}
+
+
+
+.search{
+    color: white;
+    float: right;
+    padding: 12px 100px;
+
+}
+
+.search input{
+font-style: italic;
+width: 230px;
+text-align: center;
+height: 25px;
+border-radius: 20px;
+}
+
+.content{
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px;
+    height: 2500px;
+    background-color: wheat;
+}
+
